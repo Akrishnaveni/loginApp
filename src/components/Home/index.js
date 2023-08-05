@@ -1,7 +1,7 @@
 import './index.css'
 import {Component} from 'react'
-import Login from '.Login/index.js'
-import Logout from '.Logout/index.js'
+import Login from '../Login/index.js'
+import Logout from '../Logout/index.js'
 
 class Home extends Component {
   state = {islogin: false}
