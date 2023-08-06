@@ -1,8 +1,11 @@
 import "./index.css"
 class Logout{
+    render(){
     return (
-        <h1 className="please" onclick = {this.Onclick}>Please Login</h1>
+        <h1 className="please">Please Login</h1>
         <button className="btn">Login</button>
     )
 }
+}
+
 export default Logout
