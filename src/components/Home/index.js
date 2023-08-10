@@ -14,8 +14,8 @@ class Home extends Component {
     const {islogin} = this.state
     return (
       <div className="container">
-        {islogin && {Login}}
-        {!islogin && {Logout}}
+        {islogin && <Login/>}
+        {!islogin && <Logout/>
       </div>
     )
   }
