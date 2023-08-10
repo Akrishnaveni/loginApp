@@ -1,7 +1,9 @@
+
+import Login from '../Login/index'
+import Logout from '../Logout/index'
 import './index.css'
 import {Component} from 'react'
-import Login from '../Login/index.js'
-import Logout from '../Logout/index.js'
+
 
 class Home extends Component {
   state = {islogin: false}
@@ -15,7 +17,7 @@ class Home extends Component {
     return (
       <div className="container">
         {islogin && <Login/>}
-        {!islogin && <Logout/>
+        {!islogin && <Logout/>}
       </div>
     )
   }
