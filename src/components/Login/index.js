@@ -1,14 +1,16 @@
-import "./index.css"
+import './index.css'
 
-class Login{
-    render(){
-    return (
-        <div>
-        <h1 className="welcome">Welcome User</h1>
-        <button className="btn">Logout</button>
-        </div>
-    )
-}
+const Login = props => {
+  const {onclick} = props
+
+  return (
+    <div className="container">
+      <h1 className="welcome">Welcome User</h1>
+      <button type="button" className="btn" onClick={onclick}>
+        Logout
+      </button>
+    </div>
+  )
 }
 
 export default Login
