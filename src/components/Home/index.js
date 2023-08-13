@@ -15,7 +15,7 @@ class Home extends Component {
     return (
       <div className="container">
         {islogin && <Login onclick={this.Onclick} />}
-        {!islogin && <Logout onclick={this.onclick} />}
+        {!islogin && <Logout onclick={this.Onclick} />}
       </div>
     )
   }
