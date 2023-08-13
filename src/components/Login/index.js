@@ -1,11 +1,13 @@
 import './index.css'
 
+import Message from '../Message/index'
+
 const Login = props => {
   const {onclick} = props
 
   return (
     <div className="container">
-      <h1 className="welcome">Welcome User</h1>
+      <Message message="Welcome User" />
       <button type="button" className="btn" onClick={onclick}>
         Logout
       </button>
