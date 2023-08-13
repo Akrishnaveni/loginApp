@@ -1,1 +1,7 @@
-/* Write your CSS here */
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+
